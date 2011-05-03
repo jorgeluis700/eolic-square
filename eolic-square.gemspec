@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.authors     = ["Jorge Luis Pérez"]
   s.email       = ["jorgeluis700@gmail.com"]
   s.homepage    = "https://github.com/jorgeluis700/eolic-square"
-  s.summary     = %q{Simple eolic music simulator}
-  s.description = %q{A square with 4 notes in its 4 angles and wind that excite the notes}
-  s.license     = 'MIT'
+  s.summary     = %q{Simple eolic music simulator.}
+  s.description = %q{A square with 4 notes in its 4 angles and wind that excite the notes.}
+  s.license     = %q{MIT}
 
   # Files
   s.files         = `git ls-files`.split("\n")
@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   # Dependencies
-  s.add_development_dependency('rspec')
-  s.add_development_dependency('bundler')  
+  s.add_development_dependency  "rspec"
+  s.add_development_dependency  "bundler" 
+  s.add_development_dependency  "rake", ">= 0.8"
 
 end
