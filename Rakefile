@@ -15,3 +15,8 @@ end
 # Gems tasks
 require 'bundler'
 Bundler::GemHelper.install_tasks
+
+desc "Clean automatically generated files"
+task :clean do
+  FileUtils.rm_rf "pkg"
+end
